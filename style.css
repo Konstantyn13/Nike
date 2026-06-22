@@ -1,4 +1,3 @@
-*, 
 *::after, 
 *::before {
     margin: 0;
@@ -114,4 +113,74 @@ p, h1, h3, h4 {
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFF;
+    cursor: pointer;
+}
+/* .advantages {
+    width: 100%;
+    background-image: url("./images/Group 8 1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+}
+.stars {
+    margin: 215px 130px 985px 130px;
+    width: 240px;
+    height: 346px;
+}
+.advantage {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: center;
+} */
+/* .box {
+    border: 5px solid #8E32C6;
+    margin: 105px 165px;
+} */
+ .features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+
+    border: 5px solid #8E32C6;
+ }
+ .feature-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+ }
+ .feature-img {
+  max-width: 150px;              
+  height: auto;                   
+  object-fit: contain;
+}
+
+
+.feature-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.features-section {
+    background-image: url(./images/Group\ 8\ 1.png);
+    width: 100%;
+    height: 606px;
+    gap: 0;
 }
